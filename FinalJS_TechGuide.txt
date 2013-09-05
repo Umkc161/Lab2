@@ -1,0 +1,63 @@
+$("#AndroidButton1").on("click", function()
+{
+window.open("http://www.android.com/whatsnew/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#SamsungButton").on("click", function()
+{
+window.open("http://www.samsung.com/us/mobile/cell-phones","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#LgButton").on("click", function()
+{
+window.open("http://www.lg.com/us/cell-phones","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#HtcButton").on("click", function()
+{
+window.open("http://www.htc.com/us/smartphones/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#ChromeButton").on("click", function()
+{
+window.open("http://www.google.com/intl/en/chrome/devices/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+$("#FireFox").on("click", function()
+{
+window.open("http://www.mozilla.org/en-US/firefox/os/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#iOsButton1").on("click", function()
+{
+window.open("http://www.apple.com/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#iOsButton2").on("click", function()
+{
+window.open("http://www.apple.com/iphone/","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+$("#WindowsButton1").on("click", function()
+{
+    window.open("http://windows.microsoft.com/en-us/windows/home","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+    
+$("#WindowsButton2").on("click", function()
+{
+    window.open("http://www.windowsphone.com/en-us","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});
+
+
+
+$("#StoreButton").on("click", function()
+{
+window.open("https://maps.google.com/?q=Mobile&store=37.759748,-122.427135","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+});

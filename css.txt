@@ -1,0 +1,5 @@
+input.ui-input-text-placeholder, textarea.ui-input-text-placeholder {
+    width: 98% !important;
+}
+
+.page1 { width: 100%; margin: 80 auto; border:solid black 124px; }
