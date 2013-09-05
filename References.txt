@@ -1,0 +1,7 @@
+The following are the references to my project.
+references:
+wikipedia 
+w3schools
+jquerymobile.com
+codiqa
+google images
