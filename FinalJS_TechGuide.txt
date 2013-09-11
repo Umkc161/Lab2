@@ -47,17 +47,35 @@ window.open("http://www.apple.com/iphone/","blank","toolbar=yes, location=yes, d
 
 $("#WindowsButton1").on("click", function()
 {
-    window.open("http://windows.microsoft.com/en-us/windows/home","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+window.open("http://windows.microsoft.com/en-us/windows/home","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
 });
-    
+
 $("#WindowsButton2").on("click", function()
 {
-    window.open("http://www.windowsphone.com/en-us","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+window.open("http://www.windowsphone.com/en-us","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
 });
+
+
+
+
+
+var glLat;
+var glLang;
+
+    if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+        var pos = new google.maps.LatLng(position.coords.latitude,
+        position.coords.longitude);
+        glLat = position.coords.latitude;
+        glLong = position.coords.longitude;
+        document.getElementById("demo1").innerHTML = glLat;
+    });
+}
+
 
 
 
 $("#StoreButton").on("click", function()
-{
-window.open("https://maps.google.com/?q=Mobile&store=37.759748,-122.427135","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+{    
+window.open("http://maps.google.com/?q=mobile&store="+glLat+","+glLong+"","blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
 });
